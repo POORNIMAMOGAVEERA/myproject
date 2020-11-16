@@ -1,0 +1,138 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  /* The image used */
+  background-image:url('https://hr.sparkhire.com/wp-content/uploads/2014/07/Understanding-Why-Cultural-Fit-Matters-in-the-Healthcare-Field.jpg');
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  font-size:20px;
+}
+.button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        border-radius: 6px;
+      }
+
+.ab{
+  font-size:35px;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+</style>
+<div class="bg-image"></div>
+
+<div class="bg-text">
+<div class="do">
+        <div id="legend">
+            <legend class="ab">Sign up!</legend>
+        </div>
+         <form action="" method="post">
+        <div class="control-group">
+            <!-- Username -->
+           <br> <label class="control-label" for="username">Username</label>
+            <div class="controls">
+                <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+            </div>
+        </div>
+    <div class="control-group">
+            <!--phone no-->
+            <label class="control-label" for="phone">Contact No.</label>
+            <div class="controls">
+                <input type="text" id="phone" name="phone" placeholder="" class="input-xlarge">
+            </div>
+        </div>
+        <div class="control-group">
+            <!-- E-mail -->
+            <br>  <label class="control-label" for="email">E-mail</label>
+            <div class="controls">
+                <input type="text" id="email" name="email" placeholder="eg:poornima@gmail.com " class="input-xlarge">
+            </div>
+        </div>
+<div class="control-group">
+            <!-- Age -->
+            <br><br>  <label class="control-label" for="age">Which Age group do you belong to??</label>
+            <div class="controls">
+                <input type="text" id="email" name="Age" placeholder="" class="input-xlarge">
+                <p class="help-block"></p>
+            </div>
+        </div>
+   <p>Gender</p>   <form action="">
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other
+     </form>
+        <div class="control-group">
+            <!-- Password-->
+           <br> <label  class="control-label" for="pwd" >Password:</label>
+            <div class="controls">
+              <input type="password" id="pwd" name="pwd" minlength="8" style="width:50%;padding: 12px 12px;margin: 8px 0;display: inline-block;border: 1px solid #ccc; border-radius: 4px;box-sizing: border-box;"><br><br>
+                <p class="help-block">Password should be at least 4 characters</p>
+            </div>
+        </div>
+        <div class="control-group">
+            <!-- Password -->
+            <br> <label  class="control-label" for="pwd" >Password:</label>
+            <div class="controls">
+              <input type="password" id="pwd" name="pwd" minlength="8" style="width:50%;padding: 12px 12px;margin: 8px 0;display: inline-block;border: 1px solid #ccc; border-radius: 4px;box-sizing: border-box;"><br><br>
+                <p class="help-block">Please confirm password</p>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <!-- Button -->
+            <div class="controls" >
+                 <a href="login.html" class="button">Register</a>
+            </div>
+        </div>
+   </form>
+  </div>
+   </div>
+</html>
